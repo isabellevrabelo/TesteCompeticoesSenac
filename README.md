@@ -128,7 +128,17 @@ Com Apache e MySQL em execução, abra:
 ```text
 http://localhost/teste/
 ```
+## Acesso de administrador
 
+O sistema possui uma conta de administrador padrão com os seguintes dados:
+
+- **ID:** `1`
+- **E-mail:** `admin@gmail.com`
+- **Senha:** `1`
+
+Essa conta possui acesso às funcionalidades administrativas, como gerenciamento de usuários, eventos e inscrições.
+
+**Atenção:** essas credenciais são destinadas ao ambiente de desenvolvimento. Altere a senha antes de disponibilizar o sistema em produção.
 A página inicial é o login. O arquivo `cadastro.php` permite cadastrar uma conta comum.
 
 ## Segurança e observações
